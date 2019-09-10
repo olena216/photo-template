@@ -1,0 +1,359 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Ubuntu&display=swap');
+
+body {
+    margin: 0% auto;
+}
+
+  .head{
+    position: absolute;
+  width:100%;
+    /* width:120.27%; */
+    height: 198px;
+     /* background-color: rgb(235, 77, 77) ;  */
+
+
+  }
+  .label{
+position: relative;
+float: left;
+width:38%;
+height: 100%;
+
+background-image:url(img/pic724.png);
+background-repeat:no-repeat;
+
+background-position:88.5% 11.5%;
+
+  }
+  .monblan{
+    position: relative;
+    height: 100%;
+    width: 62%;
+    float: right;
+      
+  }
+  .monblantext{
+    position: relative;
+    float:left;
+    font-size:30px;
+    font-family: 'Nanum Gothic', sans-serif;
+    top:9.9%;
+    left:4.5%;
+    font-weight:900;
+    letter-spacing:-0.3px;
+} 
+.starton{
+    position: relative;
+    border: 1px solid #4090db;
+    color:#4d97dd;
+    border-radius: 5%;
+    font-size:13px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 100;
+    float: right;
+    top:22%;
+    right:47% ;
+    /* right:56.2% ; */
+    width:150px;
+    height:29px;
+
+}
+#start {
+   
+    position: relative;
+    margin:4.9% 7% ;
+
+
+}
+#posts{
+   
+    padding: 0px 10px;  
+    font-family: 'Nanum Gothic', sans-serif;
+}
+#followers{
+   
+   
+  
+    font-family: 'Nanum Gothic', sans-serif;
+}
+#following{
+
+    
+     
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.count{
+    padding: 0px 9px;
+    font-weight:900;
+    letter-spacing: -0.3px;
+}
+.counts{
+    position: relative;
+    top: 47%;
+    right: 19%;
+    font-size:15px;
+    
+    }
+    .date{
+        position:relative;
+        float:right;
+        right:27%;
+        top:54%;
+        /* right:35%; */
+        width:445px;
+  
+      
+      }
+      
+  
+      #date{
+        position:relative;
+        float:right;
+          width: 182px;
+          height: 32px;
+          border: 2px solid #aea6a6;
+           
+          margin-top:1.4%;
+           font-family: 'Nanum Gothic', sans-serif;  
+           border-radius:6px;
+       
+          margin-right:5px;
+        
+      
+      }
+  #textdate{
+    position:relative;
+    float:left;
+     font-family: 'Nanum Gothic', sans-serif;
+     font-size:17px;
+  
+  
+  }
+ 
+  
+  #from{
+    position:relative;
+    float:right;
+      width: 182px;
+      height: 32px;
+      border: 2px solid #aea6a6;
+      
+      margin-top:1.4%;
+       font-family: 'Nanum Gothic', sans-serif;  
+       border-radius:6px;
+   
+       margin-right:23px;
+       
+     
+  
+  }
+  .fromsection3{
+      position: relative;
+      float: right;
+      background-color:#ebebeb; 
+      height: 100%;
+      width: 18%;
+      border-bottom-right-radius: 6%;
+    border-top-right-radius: 6%;
+    border-left: 1px solid #aea6a6;
+    background-image:url(img/picdate.png);
+    background-repeat:no-repeat;
+    background-position:50% 55%;
+  }
+  .fromsection2{
+    position: relative;
+    float: right;
+    background-color:#ebebeb; 
+    
+    height: 100%;
+    width: 17%;
+    /* border-left: 1px solid #aea6a6; */
+    background-image:url(img/close.png);
+    background-repeat:no-repeat;
+    background-position:50% 55%;
+}
+.fromsection1{
+    position: relative;
+    float: left;
+   
+    height: 100%;
+    width: 63%;
+    border-bottom-left-radius: 6%;
+    border-top-left-radius: 6%;
+    border-right: 1px solid #aea6a6;
+}
+#inputfrom{
+    position: relative;
+    width:100%;
+    height:89%;
+    border-bottom-left-radius: 6%;
+    border-top-left-radius: 6%;
+    border: none;
+}
+.photogalery{
+position: absolute;
+width:100%;
+
+height: 1155px;
+
+top:198px;
+ background: linear-gradient( to bottom, #f0f0f0,#f0f0f0,#f5f5f5,
+ #f5f5f5,#fafafa,#fafafa,#fafafa,#fafafa,#fafafa,#fafafa,
+ #fafafa,#fafafa,#fafafa,
+ #fafafa,#fafafa,#fafafa,#fafafa,#fafafa,#fafafa,#fafafa,#fafafa,#fafafa,
+ #fafafa,#fafafa,#fafafa,#fafafa,#fafafa,#fafafa,#fafafa)
+}
+.photovideo{
+    position: relative;
+    width:75% ;
+    height:87% ;
+    /* width:63% ;
+    height:87% ; */
+    margin:2.3% auto ;
+     background-color: rgb(115, 207, 243); 
+    
+    
+    }
+    .parmeters{
+        position: relative;
+        width: 292px;
+        height: 292px;
+       cursor: pointer;
+        margin: 2% 2.1%;
+        background-color: rgb(126, 243, 115); 
+
+       /* margin: 2% 2%; */
+    
+        }
+    .mainphotoleft{
+        float: left;
+    }
+
+
+    .mainphotoright{
+        float: right;
+    }
+    .mainphoto1{
+        background-image:url(img/Image.png);
+
+    }
+    .mainphoto2{
+
+        background-image:url(img/img806.png);
+    }
+
+    .mainphoto3{
+        background-image:url(img/img815.png);
+    }
+    .mainphoto4{
+        background-image:url(img/img817.png);
+    }
+
+  
+
+    .mainphoto6{
+        background-image:url(img/img802.png);   
+    }
+
+    .mainphoto7{
+        background-image:url(img/img816.png); 
+    }
+
+    .mainphoto8{
+        background-image:url(img/img803.png); 
+    }
+
+    
+ .parmeters:hover{
+    
+    filter: brightness(50%);
+    
+ }
+
+
+
+
+
+
+
+  .texthover{
+    position: relative; 
+    margin-top:-35% ; 
+    margin-left:10%;
+    color:#fff; 
+    font-family: 'Nanum Gothic', sans-serif;  
+    font-size:14px;
+    font-weight:600;
+    float: left;
+    
+       /* display: none; */
+   /* }
+   .likeshover{
+    position: relative; 
+    margin-top:-35% ; 
+    margin-right:50%;
+    color:#fff; 
+    font-family: 'Nanum Gothic', sans-serif;  
+    font-size:14px;
+    font-weight:600;
+    float: right;
+     */
+       /* display: none; */
+   /* }
+   .commentshover{
+    position: relative; 
+    margin-top:-35% ; 
+    margin-right:25%;
+    color:#fff; 
+    font-family: 'Nanum Gothic', sans-serif;  
+    font-size:14px;
+    font-weight:600;
+    float: right;
+    
+       /* display: none; */
+   
+   }
+    
+    /* .parmeters:hover .texthover { display:inherit; } */
+    /* .parmeters:hover .likeshover { display:inherit; } */
+
+    .todayhover{
+
+     
+       
+    }    
+   /* .heartshover{
+   
+   
+   } */
+   /* .likehover{
+    background-image: url(img/like.png) ;
+    background-repeat: no-repeat;
+     background-position:left;
+    text-align: right; 
+    margin-left:15%
+
+   }
+   .commenthover{
+    background-image: url(img/comment.png) ;
+    background-repeat: no-repeat;
+    background-position:left;
+     text-align: right; 
+     margin-left:15%
+
+   } */
+
+   /* .containertexthover{
+   
+    position: relative; 
+    margin-top:-35% ; 
+   width: 100%;
+   height: 45%;
+   background-color:#17c465; 
+    color:#fff; 
+    font-family: 'Nanum Gothic', sans-serif;  
+    font-size:14px;
+    font-weight:600;
+   }
+ */
